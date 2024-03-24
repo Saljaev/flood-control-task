@@ -1,0 +1,11 @@
+http_server:
+  address: "0.0.0.0:8080"
+  timeout: 4s
+  idle_timeout: 60s
+
+redis:
+  address: "redis:6379"
+  password: "secret"
+
+request_count: 3
+interval: 5s
